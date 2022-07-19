@@ -10,42 +10,34 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+    <nav class="navbar navbar-dark bg-primary">
+      <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+        <nav class="navbar navbar-dark bg-primary"></nav>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Movies</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="#category">Category</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+              </div>
+              
+              <br>
+            <form class="d-flex">
+              <div class="col-md-4 col-md-offset-4"></div>
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-      </div>
+      </nav>
     </nav>
+    
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -61,15 +53,16 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <br>
+    
+    <img src="https://images-cdn.9gag.com/photo/a85VvDY_700b.jpg" alt="..." class="img-thumbnail" height="300">
+    <br></br>
+    <img src="https://m.media-amazon.com/images/I/81h7Hkra2jL._SY679_.jpg" alt="..." class="img-thumbnail"  height="300">
+    <br></br>
+    <img src="https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/street-fighter-assassin-s-fist-et00303879-30-01-2021-01-57-48.jpg" alt="..." class="img-thumbnail" height="300">
+    <br>
+    <img src=".https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597774020l/55014590._SY475_.jpg" alt="..." class="img-thumbnail" height="300">
+  
+    
   </body>
 </html>
