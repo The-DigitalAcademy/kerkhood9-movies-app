@@ -7,23 +7,31 @@ function App() {
     <div className="App">
       <div class="container">
 
-        <a class="#" href="movies">Movies</a>
-        <img src="https://cdn-icons.flaticon.com/png/512/2504/premium/2504965.png?token=exp=1658304678~hmac=07dcb8d16ab8e19bea944a24adc80588" width="40" height="40" alt="" title=""
-          class="img-small"></img>
-        <a class="html" href="home" style="color: rgb(24, 12, 250) white;">Home</a>
-        <a class="html" href="video" style="color: rgb(24, 12, 250) white;">Video</a>
-        <a class="html" href="drama" style="color: rgb(24, 12, 250) white;">Drama</a>
-        <a class="html" href="kid" style="color: rgb(24, 12, 250) white;">Kids</a>
+        <a aria-selected="true">
+          <i class="fa fa-bars" style="font-size:40px" aria-hidden="true"> Menu</i>
+        </a>
 
+        <a href="video" aria-selected="true">
+          <i class="fa fa-video-camera" href="http://localhost:3000/" style="font-size:40px" aria-hidden="true"></i>
+          Video
+        </a>
+        <a href="home" aria-selected="true">
+          <i class="fa fa-home" href="http://localhost:3000/" style="font-size:40px" aria-hidden="true"></i>
+          Home
+        </a>
+        <a href="flim" aria-selected="true">
+          <i class="fa fa-film" href="http://localhost:3000/" style="font-size:40px" aria-hidden="true"></i>
+          Flim
+        </a>
+        <a href="language" aria-selected="true">
+          <i class="fa fa-cc" href="http://localhost:3000/" style="font-size:40px" aria-hidden="true"></i>
+          Language
+        </a>
+        <a href="kid" aria-selected="true">
+          <i class="fa fa-child" href="http://localhost:3000/" style="font-size:40px" aria-hidden="true"></i>
+          Kids
+        </a>
 
-
-
-        <div class="search-container">
-          <form action="/action_page.php">
-            <input type="text" placeholder="Search.." name="search"></input>
-            <button type="submit" style="color: white;"><i class="fa fa-search"></i></button>
-          </form>
-        </div>
 
 
         <div id="root"></div>
