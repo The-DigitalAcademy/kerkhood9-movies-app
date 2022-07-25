@@ -1,2 +1,2 @@
 
-[LINK](https://the-digitalacademy.github.io/movies-app/)
+[LINK](https://the-digitalacademy.github.io/kerkhood9-movies-app/)
