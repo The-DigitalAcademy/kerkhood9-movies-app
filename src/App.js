@@ -8,7 +8,7 @@ function App() {
       <div class="container">
 
         <a aria-selected="true">
-          <i class="fa fa-bars" style="font-size:40px" aria-hidden="true"> Menu</i>
+          <i class="fa fa-bars"  href="http://localhost:3000/" style="font-size:40px" aria-hidden="true"> Menu</i>
         </a>
 
         <a href="video" aria-selected="true">
