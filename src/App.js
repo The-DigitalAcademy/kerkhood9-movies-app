@@ -1,46 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+const menu = document.querySelector(".menu");
+const menuItems = document.querySelectorAll(".menuItem");
+const hamburger= document.querySelector(".hamburger");
+const closeIcon= document.querySelector(".closeIcon");
+const menuIcon = document.querySelector(".menuIcon");
 
-
-function App() {
-
-  return (
-    <div className="App">
-      <div class="container">
-
-        <a aria-selected="true">
-          <i class="fa fa-bars" style="font-size:40px" aria-hidden="true"> Menu</i>
-        </a>
-
-        <a href="video" aria-selected="true">
-          <i class="fa fa-video-camera" href="http://localhost:3000/" style="font-size:40px" aria-hidden="true"></i>
-          Video
-        </a>
-        <a href="home" aria-selected="true">
-          <i class="fa fa-home" href="http://localhost:3000/" style="font-size:40px" aria-hidden="true"></i>
-          Home
-        </a>
-        <a href="flim" aria-selected="true">
-          <i class="fa fa-film" href="http://localhost:3000/" style="font-size:40px" aria-hidden="true"></i>
-          Flim
-        </a>
-        <a href="language" aria-selected="true">
-          <i class="fa fa-cc" href="http://localhost:3000/" style="font-size:40px" aria-hidden="true"></i>
-          Language
-        </a>
-        <a href="kid" aria-selected="true">
-          <i class="fa fa-child" href="http://localhost:3000/" style="font-size:40px" aria-hidden="true"></i>
-          Kids
-        </a>
-
-
-
-        <div id="root"></div>
-      </div>
-    </div>
-
-
-  );
+function toggleMenu() {
+  if (menu.classList.contains("showMenu")) {
+    menu.classList.remove("showMenu");
+    closeIcon.style.display = "none";
+    menuIcon.style.display = "block";
+  } else {
+    menu.classList.add("showMenu");
+    closeIcon.style.display = "block";
+    menuIcon.style.display = "none";
+  }
 }
 
-export default App;
+hamburger.addEventListener("click", toggleMenu);
