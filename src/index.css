@@ -369,4 +369,6 @@ body {
   top:5px;
   right:5px;
 }
-
+#menu_checkbox {
+  display: none;
+}
