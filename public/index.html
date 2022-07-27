@@ -8,7 +8,7 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
   <script src="node_modules/side-nav/side-nav.js"></script>
-
+  <link rel="stylesheet" href="style.css">
   <title>Movies@</title>
   <style>
     * {
@@ -177,15 +177,46 @@
       top: 5px;
       right: 5px;
     }
+
+
+    .overlay {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(51, 51, 51, 0.7);
+    z-index: 998;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+ 
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+}
+.sidebar li {
+  list-style: none;
+}
+.sidebar li a {
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  color: #fff;
+}
   </style>
 </head>
 
 <body>
 
-
+  
   <div class="topnav">
 
-
+ 
     <aside>
 
       <br>
@@ -200,38 +231,50 @@
 
       <br><br><br><br>
 
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" style="color: blue;">Welcome</button>
 
-      <a href="https://app.steers.co.za/restaurant/6745/steers-silverstar-casino" onclick="menu()" aria-selected="true">
-        <i class="fa fa-bars" href="http://localhost:3000/menu" style="font-size:40px" aria-hidden="true"></i>
-        Menu
-      </a>
-      <a href="https://www.silverstar.co.za/" aria-selected="true">
-        <i class="fa fa-home" href="http://localhost:3000/Home" style="font-size:40px" aria-hidden="true"></i>
-        Home
-      </a>
-      <br><br><br><br>
-      <a href="https://www.silverstar.co.za/gaming/myths-of-gaming/" aria-selected="true">
-        <i class="fa fa-video-camera" href="http://localhost:3000/video" style="font-size:40px" aria-hidden="true"></i>
-        Video
-      </a>
+<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasTopLabel">silverstar</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">x</button>
+  </div>
+  <div class="offcanvas-body">
+    <a href="https://app.steers.co.za/restaurant/6745/steers-silverstar-casino" onclick="menu()" aria-selected="true">
+      <i class="fa fa-bars" href="http://localhost:3000/menu" style="font-size:40px" aria-hidden="true"></i>
+      Menu
+    </a>
+    <a href="https://www.silverstar.co.za/" aria-selected="true">
+      <i class="fa fa-home" href="http://localhost:3000/Home" style="font-size:40px" aria-hidden="true"></i>
+      Home
+    </a>
+    <br><br><br><br>
+    <a href="https://www.silverstar.co.za/gaming/myths-of-gaming/" aria-selected="true">
+      <i class="fa fa-video-camera" href="http://localhost:3000/video" style="font-size:40px" aria-hidden="true"></i>
+      Video
+    </a>
 
-      <a href="https://www.silverstar.co.za/more-at-silverstar/media/" aria-selected="true">
-        <i class="fa fa-film" href="http://localhost:3000/flim" style="font-size:40px" aria-hidden="true"></i>
-        media
-      </a>
-      <a href="https://www.silverstar.co.za/comedy-madness/" aria-selected="true">
-        <i class="fa fa-cc" href="http://localhost:3000/cc" style="font-size:40px" aria-hidden="true"></i>
-        Language
-      </a>
-      <a href="https://www.silverstar.co.za/entertainment/family-fun/magic-company/" aria-selected="true">
-        <i class="fa fa-child" href="http://localhost:3000/kid" style="font-size:40px" aria-hidden="true"></i>
-        Kids
-      </a>
+    <a href="https://www.silverstar.co.za/more-at-silverstar/media/" aria-selected="true">
+      <i class="fa fa-film" href="http://localhost:3000/flim" style="font-size:40px" aria-hidden="true"></i>
+      media
+    </a>
+    <a href="https://www.silverstar.co.za/comedy-madness/" aria-selected="true">
+      <i class="fa fa-cc" href="http://localhost:3000/cc" style="font-size:40px" aria-hidden="true"></i>
+      Language
+    </a>
+    <a href="https://www.silverstar.co.za/entertainment/family-fun/magic-company/" aria-selected="true">
+      <i class="fa fa-child" href="http://localhost:3000/kid" style="font-size:40px" aria-hidden="true"></i>
+      Kids
+    </a>
 
-      <br><br><br><br /><br /><br><br><br /><br><br />
+    <br><br><br><br /><br /><br><br><br /><br><br />
 
-      <a class="fas fa fa-play fa-spin" style="font-size:40px" href="https://silverstarmovies.tsogosun.com/"> 
-      Play</a>
+    <a class="fas fa fa-play fa-spin" style="font-size:40px" href="https://silverstarmovies.tsogosun.com/"> 
+    Play</a>
+  </div>
+</div>
+      <br><br>
+
+     
     </aside>
   </div>
   </div>

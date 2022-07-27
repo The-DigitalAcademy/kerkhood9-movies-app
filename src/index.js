@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <navbar />
-    <menu />
+    <menu /> 
     <App />
   </React.StrictMode>
 );
