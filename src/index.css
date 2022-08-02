@@ -79,10 +79,6 @@ a img {
   height: 80%;
 }
 
-#search-box {
-  border: 1px solid green;
-}
-
 #back-img {
   position: fixed;
   left: 0px;
@@ -234,10 +230,7 @@ a img {
   border-radius: 50%;
 }
 
-.name {
-  margin-top: 8px;
-  font-weight: normal;
-}
+
 
 .designation {
   margin-top: 2px;
