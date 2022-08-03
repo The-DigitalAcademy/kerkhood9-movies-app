@@ -280,15 +280,16 @@ a img {
  .hover_collapse .sidebar ul li a .text{
   display: none;
  }
- 
+
  aside {
+  background-color: #1699ea;
   color: #fff;
   width: 250px;
   padding-left: 20px;
   height: 100vh;
   background-image: linear-gradient(30deg , #0048bd, #1699ea);
-  border-top-right-radius: 80px;
   border-bottom-left-radius: 80px;
+  border-top-right-radius: 80px;
 }
 
 aside a {
