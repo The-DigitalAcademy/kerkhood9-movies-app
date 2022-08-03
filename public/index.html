@@ -65,13 +65,26 @@
       background: rgba(6, 4, 4, 0.643) url("https://i.ytimg.com/vi/V36VmK0AltE/maxresdefault.jpg") no-repeat fixed center;
     }
 
-    @media screen and (max-height: 450px) {
+    @media screen and (max-width: 700px) {
       .sidebar {
-        padding-top: 15px;
+        width: 100%;
+        height: auto;
+        position: relative;
       }
 
       .sidebar a {
-        font-size: 18px;
+        float: left;
+      }
+
+      div.content {
+        margin-left: 0;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .sidebar a {
+        text-align: center;
+        float: none;
       }
     }
 
@@ -103,6 +116,8 @@
       font-size: 17px;
       border: none;
     }
+
+
 
     @media screen and (max-width: 600px) {
       .topnav .search-container {
@@ -306,7 +321,7 @@
             Up</a></i>
       </ul>
       <br><br /><br><br /><br><br />
-      
+
     </aside>
   </div>
   </div>
