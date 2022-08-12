@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/kerkhood9-movies-app/static/css/main.d0e0b462.css",
-    "main.js": "/kerkhood9-movies-app/static/js/main.ed37e0fe.js",
+    "main.js": "/kerkhood9-movies-app/static/js/main.edda8695.js",
     "index.html": "/kerkhood9-movies-app/index.html",
     "main.d0e0b462.css.map": "/kerkhood9-movies-app/static/css/main.d0e0b462.css.map",
-    "main.ed37e0fe.js.map": "/kerkhood9-movies-app/static/js/main.ed37e0fe.js.map"
+    "main.edda8695.js.map": "/kerkhood9-movies-app/static/js/main.edda8695.js.map"
   },
   "entrypoints": [
     "static/css/main.d0e0b462.css",
-    "static/js/main.ed37e0fe.js"
+    "static/js/main.edda8695.js"
   ]
 }
