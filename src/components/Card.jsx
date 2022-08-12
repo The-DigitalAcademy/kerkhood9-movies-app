@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function Card({image, name, price}) {
 
     let amount = Number(price.slice(1))
