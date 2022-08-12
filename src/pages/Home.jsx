@@ -8,7 +8,7 @@ function Home() {
       <Header name="Movies" />
       <div className='container'>
         <div className='row'>
-          <Card
+          <Card 
             image='https://www.thebeyondnews.com/assets/admin/images/postimage/The-beyond-news-Doctor%20Strange%20in%20the%20Multiverse%20of%20Madness%20Movie%202022-%20release%20date,%20cast,%20story,%20teaser,%20trailer,%20first%20look,%20rating,%20reviews,%20box%20office%20collection%20and%20preview.jpg'
             name='Doctor Strange Multiverse of Madness'
             price='R500'
@@ -35,7 +35,7 @@ function Home() {
           <Card
             image='https://cdn.moviefone.com/admin-uploads/posters/morbius-movie-poster_1638710998.jpg?d=360x540&q=50'
             name='Morbius'
-           
+            
           />
           <Card
             image='https://cdn.moviefone.com/admin-uploads/posters/super-pets-movie-poster_1656124357.jpg?d=360x540&q=50' 
@@ -45,7 +45,7 @@ function Home() {
           <Card
             image='https://cdn.vox-cdn.com/thumbor/l45XEEqbJXzQf6LTnTT_pVZzg1M=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/22488068/image_2021_05_03_090558.png'
             name='Wakanda forever'
-            
+           
           />
 
           <Card
