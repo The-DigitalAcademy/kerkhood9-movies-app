@@ -23,7 +23,7 @@ function Card({image, name, price}) {
       />
       <div className='card-body'>
         <p className='card-text'>{name}</p>
-        <h4 className='card-text font-bold'>{price}</h4>
+        
         <br />
         <button onClick= {Sell} className="btn btn- secondary">
             Tictker buy
