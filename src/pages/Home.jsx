@@ -23,7 +23,7 @@ function Home() {
           <Card
             image='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpenZ7mfDd3JcGBZGT1rS-BRblyfXBOMJE0w&usqp=CAU'
             name='Bease'
-            price='R400'
+            
           />
 
           <Card
