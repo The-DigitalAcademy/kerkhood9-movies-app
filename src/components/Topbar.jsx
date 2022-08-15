@@ -18,7 +18,12 @@ function Topbar() {
               <Link className="nav-link active" aria-current="page" to="about">About</Link>
             </li>
           </ul>
-          
+          <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search"></input>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
         </div>
       </div>
     </nav>

@@ -37,10 +37,10 @@ function Home() {
             name='Morbius'
             price='R1000'
           />
-          <Card
+          <Card 
             image='https://cdn.moviefone.com/admin-uploads/posters/super-pets-movie-poster_1656124357.jpg?d=360x540&q=50' 
             name='Superpets'
-            price='R500'
+            price='R500' 
           />
           <Card
             image='https://cdn.vox-cdn.com/thumbor/l45XEEqbJXzQf6LTnTT_pVZzg1M=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/22488068/image_2021_05_03_090558.png'
