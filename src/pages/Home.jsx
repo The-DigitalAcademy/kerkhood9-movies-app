@@ -10,7 +10,7 @@ function Home() {
         <div className='row'>
           <Card 
             image='https://www.thebeyondnews.com/assets/admin/images/postimage/The-beyond-news-Doctor%20Strange%20in%20the%20Multiverse%20of%20Madness%20Movie%202022-%20release%20date,%20cast,%20story,%20teaser,%20trailer,%20first%20look,%20rating,%20reviews,%20box%20office%20collection%20and%20preview.jpg'
-            name='Doctor Strange Multiverse of Madness'
+            name='Doctor Strange Multiverse'
             price='R500'
           />
 
