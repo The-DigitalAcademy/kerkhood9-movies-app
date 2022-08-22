@@ -27,7 +27,7 @@ function Card({image, name, price}) {
         
         <br />
         <button onClick= {Sell} className="btn btn- secondary">
-            Tictker buy
+            Sell 
             </button>
       </div>
     </div>
