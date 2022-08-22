@@ -27,7 +27,7 @@ function Card({image, name, price}) {
         
         <br />
         <button onClick= {Sell} className="btn btn- secondary">
-            Sell 
+            Sell
             </button>
       </div>
     </div>
