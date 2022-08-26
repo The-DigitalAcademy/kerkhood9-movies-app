@@ -22,6 +22,7 @@ function Card({image, name, price}) {
         className='card-img-top'
         alt='...'
       />
+      
       <div className='card-body'>
         <p className='card-text'>{name}</p>
         
@@ -29,6 +30,7 @@ function Card({image, name, price}) {
         <button onClick= {Sell} className="btn btn- secondary">
             Sell
             </button>
+            <br />
       </div>
     </div>
   </div>

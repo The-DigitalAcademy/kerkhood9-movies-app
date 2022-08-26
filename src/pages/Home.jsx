@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Card from '../components/Card';
 
+
 function Home() {
   return (
     <div className='mb-5'>
@@ -15,7 +16,7 @@ function Home() {
           />
 
           <Card
-            image='https://sportshub.cbsistatic.com/i/2022/04/18/ccb71c63-2cf3-44dd-8078-0846f97a874c/thor-love-and-thunder-poster.jpg?auto=webp&width=864&height=1280&crop=0.675:1,smart'
+            image='https://sportshub.cbsistatic.com/i/2022/04/18/ccb71c63-2cf3-44dd-8078-0846f97a874c/thor-love-and-thunder-poster.jpg?auto=webp&width=864&height=1280&crop=0.675:1,smart' 
             name='Thor Love and thunder'
             price='R250'
           />
