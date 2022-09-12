@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kerkhood9-movies-app/static/css/main.d0e0b462.css",
-    "main.js": "/kerkhood9-movies-app/static/js/main.9485b1ab.js",
-    "index.html": "/kerkhood9-movies-app/index.html",
-    "main.d0e0b462.css.map": "/kerkhood9-movies-app/static/css/main.d0e0b462.css.map",
-    "main.9485b1ab.js.map": "/kerkhood9-movies-app/static/js/main.9485b1ab.js.map"
+    "main.css": "/khumbulani-movies-app/static/css/main.d0e0b462.css",
+    "main.js": "/khumbulani-movies-app/static/js/main.62ae42f7.js",
+    "index.html": "/khumbulani-movies-app/index.html",
+    "main.d0e0b462.css.map": "/khumbulani-movies-app/static/css/main.d0e0b462.css.map",
+    "main.62ae42f7.js.map": "/khumbulani-movies-app/static/js/main.62ae42f7.js.map"
   },
   "entrypoints": [
     "static/css/main.d0e0b462.css",
-    "static/js/main.9485b1ab.js"
+    "static/js/main.62ae42f7.js"
   ]
 }
